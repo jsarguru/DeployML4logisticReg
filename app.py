@@ -1,8 +1,8 @@
 from flask import jsonify
 import numpy as np
 
-app = Flask(__name__)
-print("Flask application structure initialized.")
+#app = Flask(__name__)
+#print("Flask application structure initialized.")
 
 @app.route('/predict', methods=['POST'])
 def predict():
