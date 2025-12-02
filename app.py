@@ -7,8 +7,8 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the trained model and scaler
-model = joblib.load('/content/logistic_regression_model.joblib')
-scaler = joblib.load('/content/scaler.joblib')
+model = joblib.load('logistic_regression_model.joblib')
+scaler = joblib.load('scaler.joblib')
 
 # This is a placeholder for the feature names. In a real application,
 # you would ideally save these with your model or derive them from your training data.
